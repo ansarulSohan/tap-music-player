@@ -68,10 +68,12 @@ header {
 @media screen and (max-width: 768px) {
   .pads {
     flex-wrap: wrap;
+    justify-content: stretch;
+    align-items: stretch;
   }
 
   .pads div {
     width: 50%;
-    height: 1fr;
+    height: 80%;
   }
 }
